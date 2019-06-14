@@ -1,0 +1,27 @@
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.7rem;
+    padding-top: 1rem;
+    margin: 2.3rem 0;
+    border-radius: 0.9rem;
+    transition:
+      background-color 1s,
+      color 1s;
+    position: relative;
+    width: 50%;
+    height: 6.5rem;
+    color: $color-primary-text;
+  }
+
+  &:hover {
+    background-color: $color-text-white;
+    color: $color-primary-green;
+  }
+
+  &-white {
+    background-color: rgba($color-text-white, 0.8);
+  }
+}

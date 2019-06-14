@@ -1,8 +1,41 @@
 .food-img {
-  background-image: url(http://localhost:8888/peartree/wp-content/uploads/2019/06/mantra-media-58090-unsplash-e1560452964428.jpg);
+  background-image:
+    linear-gradient(
+      0.25turn,
+      rgba(0, 0, 0, 0.75),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(http://localhost:8888/peartree/wp-content/uploads/2019/06/mantra-media-58090-unsplash-e1560452964428.jpg);
   background-size: cover;
   background-position: 50%;
-  height: 500px;
-  width: 100%;
-  top: 400px;
+  height: 400px;
+  margin-top: 130px;
+  margin-bottom: 60rem;
+}
+
+.block-text {
+  color: $color-text-white;
+  font-size: 4.5rem;
+  padding: -1rem;
+  margin-top: 4rem;
+
+  &-top {
+    text-transform: uppercase;
+    text-shadow: 0 0 7px #000;
+  }
+
+  &-bottom {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 0 7px #000;
+  }
+}
+
+.block-phone {
+  color: $color-primary-green;
+  position: relative;
+  font-weight: bold;
+  margin-left: 10rem;
+  text-shadow: 0 0 7px #000;
 }
