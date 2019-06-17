@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use Sober\Controller\Controller;
 
-class section extends Controller
+class SectionTwo extends Controller
 {
 
     

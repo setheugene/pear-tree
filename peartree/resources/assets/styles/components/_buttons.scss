@@ -4,24 +4,35 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 2.7rem;
-    padding-top: 1rem;
-    margin: 2.3rem 0;
     border-radius: 0.9rem;
-    transition:
-      background-color 1s,
-      color 1s;
+    transition: all 1s, color 1s;
     position: relative;
-    width: 50%;
-    height: 6.5rem;
     color: $color-primary-text;
-  }
-
-  &:hover {
-    background-color: $color-text-white;
-    color: $color-primary-green;
   }
 
   &-white {
     background-color: rgba($color-text-white, 0.8);
+    width: 50%;
+    height: 6.5rem;
+    margin: 2.3rem 0;
+    padding-top: 1rem;
+
+    &:hover {
+      background-color: $color-text-white;
+      color: $color-primary-green;
+    }
+  }
+
+  &-green {
+    background-color: $color-primary-green;
+    width: 70%;
+    height: 5.6rem;
+    margin: 0 0 4.5rem 0;
+    padding-top: 0.5rem;
+
+    &:hover {
+      background-color: $color-light-grey;
+      color: $color-text-white;
+    }
   }
 }

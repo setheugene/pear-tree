@@ -9,6 +9,10 @@
         <main class="main">
           @yield('content')
           @include('partials.section')
+          @include('partials.section-two')
+          @include('partials.section-three')
+          @include('partials.section-four')
+          @include('partials.carousel')
         </main>
         
         @if (App\display_sidebar())

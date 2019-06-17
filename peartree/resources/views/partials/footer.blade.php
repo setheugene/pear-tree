@@ -2,7 +2,6 @@
   <div class="container-fluid footer-bar fixed-bottom">
     @php dynamic_sidebar('sidebar-footer') @endphp
 
-
 <div class="container footer-text">
     <div class="d-flex flex-row">
     <div class="col-md-3">
